@@ -13,4 +13,21 @@ public interface AdminMapper {
      * @return
      */
     Admin login(String userName,String password);
+
+    /**
+     * 修改用户的信息
+     * @param admin
+     * @return
+     */
+    int updateByPrimaryKeySelective(Admin admin);
+
+
+    /**
+     * 通过id查找用户
+     * @param adminId
+     * @return
+     */
+    Admin selectByPrimaryKey(Long adminId);
+
+
 }
