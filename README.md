@@ -1,2 +1,2 @@
-# newsManagement
+# Blog
 Read me
