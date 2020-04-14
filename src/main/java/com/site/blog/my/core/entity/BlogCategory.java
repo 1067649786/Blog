@@ -7,6 +7,8 @@ import java.util.Date;
 public class BlogCategory {
     private Integer categoryId;
 
+    private Integer uid;
+
     private String categoryName;
 
     private String categoryIcon;
@@ -24,6 +26,14 @@ public class BlogCategory {
 
     public void setCategoryId(Integer categoryId) {
         this.categoryId = categoryId;
+    }
+
+    public Integer getUid() {
+        return uid;
+    }
+
+    public void setUid(Integer uid) {
+        this.uid = uid;
     }
 
     public String getCategoryName() {

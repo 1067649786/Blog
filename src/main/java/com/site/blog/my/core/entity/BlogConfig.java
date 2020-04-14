@@ -11,6 +11,8 @@ public class BlogConfig {
 
     private Date updateTime;
 
+    private Integer uid;
+
     public String getConfigName() {
         return configName;
     }
@@ -41,6 +43,14 @@ public class BlogConfig {
 
     public void setUpdateTime(Date updateTime) {
         this.updateTime = updateTime;
+    }
+
+    public Integer getUid() {
+        return uid;
+    }
+
+    public void setUid(Integer uid) {
+        this.uid = uid;
     }
 
     @Override

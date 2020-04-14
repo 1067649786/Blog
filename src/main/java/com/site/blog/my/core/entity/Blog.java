@@ -7,6 +7,8 @@ import java.util.Date;
 public class Blog {
     private Long blogId;
 
+    private Integer uid;
+
     private String blogTitle;
 
     private String blogSubUrl;
@@ -40,6 +42,14 @@ public class Blog {
 
     public void setBlogId(Long blogId) {
         this.blogId = blogId;
+    }
+
+    public Integer getUid() {
+        return uid;
+    }
+
+    public void setUid(Integer uid) {
+        this.uid = uid;
     }
 
     public String getBlogTitle() {
